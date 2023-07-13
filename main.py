@@ -8,7 +8,7 @@ import astropy.coordinates as coord
 import numpy.ma as ma
 import matplotlib.pyplot as plt
 
-def star_mapper_3d(star_name, radius, depth_start, depth_end):
+def make_star_box(star_name, radius, depth_start, depth_end):
     
     """Star Mapper in 3D
 
